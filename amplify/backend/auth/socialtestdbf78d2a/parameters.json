@@ -1,8 +1,10 @@
 {
-    "resourceNameTruncated": "social43e67984",
-    "userPoolName": "socialtest43e67984_userpool_43e67984",
+    "identityPoolName": "socialtestdbf78d2a_identitypool_dbf78d2a",
+    "allowUnauthenticatedIdentities": false,
+    "resourceNameTruncated": "socialdbf78d2a",
+    "userPoolName": "socialtestdbf78d2a_userpool_dbf78d2a",
     "autoVerifiedAttributes": [
-        "phone_number"
+        "email"
     ],
     "mfaConfiguration": "OFF",
     "mfaTypes": [
@@ -19,17 +21,18 @@
         "email"
     ],
     "userpoolClientGenerateSecret": true,
-    "userpoolClientRefreshTokenValidity": "1",
+    "userpoolClientRefreshTokenValidity": 30,
     "userpoolClientWriteAttributes": [
         "email"
     ],
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "social43e67984_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "socialdbf78d2a_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "resourceName": "socialtest43e67984",
-    "authSelections": "userPoolOnly",
+    "sharedId": "dbf78d2a",
+    "resourceName": "socialtestdbf78d2a",
+    "authSelections": "identityPoolAndUserPool",
     "authRoleArn": {
         "Fn::GetAtt": [
             "AuthRole",
@@ -42,26 +45,14 @@
             "Arn"
         ]
     },
-    "useDefault": "manual",
+    "useDefault": "defaultSocial",
     "hostedUI": true,
-    "usernameAttributes": [
-        "email"
-    ],
-    "triggers": "{}",
-    "userPoolGroupList": [
-        "test"
-    ],
-    "parentStack": {
-        "Ref": "AWS::StackId"
-    },
-    "permissions": [],
-    "dependsOn": [],
-    "userPoolGroups": true,
-    "adminQueries": false,
-    "hostedUIDomainName": "socialtest4af9bb99-4af9bb99",
+    "hostedUIDomainName": "socialtestdbf78d2a-dbf78d2a",
     "authProvidersUserPool": [
         "Google"
     ],
     "hostedUIProviderMeta": "[{\"ProviderName\":\"Google\",\"authorize_scopes\":\"openid email profile\",\"AttributeMapping\":{\"email\":\"email\",\"username\":\"sub\"}}]",
-    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"email\"],\"CallbackURLs\":[\"http://localhost:3000/\"],\"LogoutURLs\":[\"http://localhost:3000/\"]}"
+    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"http://localhost:3000/\"],\"LogoutURLs\":[\"http://localhost:3000/\"]}",
+    "userPoolGroupList": [],
+    "dependsOn": []
 }

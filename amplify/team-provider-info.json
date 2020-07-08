@@ -1,20 +1,20 @@
 {
-    "test": {
+    "dev": {
         "awscloudformation": {
-            "AuthRoleName": "amplify-socialtest-test-162153-authRole",
-            "UnauthRoleArn": "arn:aws:iam::784447291930:role/amplify-socialtest-test-162153-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::784447291930:role/amplify-socialtest-test-162153-authRole",
+            "AuthRoleName": "amplify-socialtest-dev-164800-authRole",
+            "UnauthRoleArn": "arn:aws:iam::784447291930:role/amplify-socialtest-dev-164800-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::784447291930:role/amplify-socialtest-dev-164800-authRole",
             "Region": "us-west-2",
-            "DeploymentBucketName": "amplify-socialtest-test-162153-deployment",
-            "UnauthRoleName": "amplify-socialtest-test-162153-unauthRole",
-            "StackName": "amplify-socialtest-test-162153",
-            "StackId": "arn:aws:cloudformation:us-west-2:784447291930:stack/amplify-socialtest-test-162153/d3622030-c171-11ea-9e8e-02a77ed54d64",
-            "AmplifyAppId": "d2z2soz930vci9"
+            "DeploymentBucketName": "amplify-socialtest-dev-164800-deployment",
+            "UnauthRoleName": "amplify-socialtest-dev-164800-unauthRole",
+            "StackName": "amplify-socialtest-dev-164800",
+            "StackId": "arn:aws:cloudformation:us-west-2:784447291930:stack/amplify-socialtest-dev-164800/77ec9830-c175-11ea-8b11-0222bb28abfe",
+            "AmplifyAppId": "d3p8kq2zk2ktp1"
         },
         "categories": {
             "auth": {
-                "socialtest43e67984": {
-                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Google\",\"client_id\":\"685183649309-1nmmqo9qr1sje7429d85va05q334f41h.apps.googleusercontent.com\",\"client_secret\":\"SfeItOnbd3IARYd3vTXnvpGD\"}]"
+                "socialtestdbf78d2a": {
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Google\",\"client_id\":\"    685183649309-1nmmqo9qr1sje7429d85va05q334f41h.apps.googleusercontent.com\",\"client_secret\":\"SfeItOnbd3IARYd3vTXnvpGD\"}]"
                 }
             }
         }

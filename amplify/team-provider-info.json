@@ -1,0 +1,22 @@
+{
+    "test": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-socialtest-test-162153-authRole",
+            "UnauthRoleArn": "arn:aws:iam::784447291930:role/amplify-socialtest-test-162153-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::784447291930:role/amplify-socialtest-test-162153-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-socialtest-test-162153-deployment",
+            "UnauthRoleName": "amplify-socialtest-test-162153-unauthRole",
+            "StackName": "amplify-socialtest-test-162153",
+            "StackId": "arn:aws:cloudformation:us-west-2:784447291930:stack/amplify-socialtest-test-162153/d3622030-c171-11ea-9e8e-02a77ed54d64",
+            "AmplifyAppId": "d2z2soz930vci9"
+        },
+        "categories": {
+            "auth": {
+                "socialtest43e67984": {
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Google\",\"client_id\":\"685183649309-1nmmqo9qr1sje7429d85va05q334f41h.apps.googleusercontent.com\",\"client_secret\":\"SfeItOnbd3IARYd3vTXnvpGD\"}]"
+                }
+            }
+        }
+    }
+}
